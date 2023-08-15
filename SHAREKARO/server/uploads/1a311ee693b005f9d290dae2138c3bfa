@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+
+      .nav {
+        display: flex;
+        background-color: black;
+        color: white;
+        padding: 20px;
+
+        justify-content: space-between;
+      }
+
+      .right-container {
+        display: flex;
+        gap: 15px;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="left-container">
+        <p>Logo</p>
+      </div>
+      <div class="right-container">
+        <a href=""><span class="">Home</span></a>
+        <a href=""><span class="">About</span></a>
+        <a href=""><span class="">Login</span></a>
+      </div>
+    </div>
+  </body>
+</html>
