@@ -3,6 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import axios from 'axios';
+ axios.defaults.withCredentials = true;
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    axios.post('https://fileshare-rho.vercel.app', {})
+    .then (result => console.log(result))
+    .catch(err => console.log(err))
+  }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
