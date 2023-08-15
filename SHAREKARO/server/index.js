@@ -10,7 +10,7 @@ const app = express();
 
 app.use(cors(
   {
-    origin:{"https://deploy-file-share.vercel.app"},
+    origin:{"https://filesharef.vercel.app"},
     methods: {"POST", "GET"},
     credentials: true
   }
